@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="head">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <span id="link">
+    <link  rel="stylesheet" href="Portfolio.css">
+</span>
+</head>
+
+<body id="body">
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#skills" style="--i:3;">Skills</a>
+            <a href="#project" style="--i:4;">Project</a>
+            <a href="#contact" style="--i:5;">Contact</a>
+            <box-icon onclick="theme()" id="box"><i class='bx bxs-brightness-half'></i></box-icon>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content" id="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Jaimin Trivedi</h1>
+            <h3>And I'm a <span class="multiple-text" id="multiple-text"></span></h3>
+            <div class="social-media" id="social-media">
+                <a id="social-link1" href="https://www.facebook.com/jaimin.trivedi.733/" style="--i:7"
+                    target="_blank"><i class="bx bxl-facebook"></i></a>
+                <a id="social-link2" href="https://x.com/Jaimin__Trivedi" target="_blank" style="--i:8"><i
+                        class="bx bxl-xing"></i></a>
+                <a id="social-link3" href="https://www.instagram.com/jaimin__trivedi/" style="--i:9" target="_blank"><i
+                        class="bx bxl-instagram"></i></a>
+                <a id="social-link4" href="https://www.linkedin.com/in/jaimin-trivedi-1789a42ab/" style="--i:10"
+                    target="_blank"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <a id="about-link" href="#about" class="about-btn">About Me <i class="bx bxs-down-arrow"></i></a>
+        </div>
+        <div class="home-img">
+            <img src="image-2-removebg.png" alt="Jaimin Trivedi">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="about-heading" id="about-heading"><i class="bx bxs-user"></i>About <span>Me</span></h2>
+
+        <div class="row">
+
+            <div class="about-image">
+                <img id="about-image" src="image-3.jpg" alt="Jaimin Trivedi">
+            </div>
+
+            <div class="about-content" id="about-content">
+                <h3>I'm Jaimin</h3>
+                <span class="tag">Full Stack Developer</span>
+
+                <p>I am an aspiring software developer currently pursuing a degree in computer science. Here, you'll
+                    find my
+                    journey through the world of technology.</p>
+                <div class="box-container">
+                    <div class="box">
+                        <p><span id="email"> Email : </span>trivedij481@gmail.com</p>
+                        <p class="place"><span id="place"> Place : </span>Ahmedabad, India - 380051</p>
+                    </div>
+                </div>
+
+                <div class="cv" id="cv">
+                    <a href="Resume .pdf" download=""><span>Download CV</span>
+                        <i class='bx bxs-cloud-download'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="skills-content" id="skills-content">
+            <h3 class="skills-heading" id="skills-heading"><i class='bx bx-code-block'></i> Skills &
+                <span>Abilities</span>
+            </h3>
+            <div class="skills-div" id="skills-div">
+                <div class="one" id="one"><i class='bx bxl-java'></i><br>Java</div>
+                <div class="two" id="two"><i class='bx bxl-jquery'></i><br>Jquery</div>
+                <div class="three" id="three"><i class='bx bxl-javascript'></i><br>J.S.</div>
+                <div class="four" id="four"><i class='bx bxl-nodejs'></i><br>Nodejs</div>
+                <div class="five" id="five"><i class='bx bxl-c-plus-plus'></i><br>C++</div>
+                <div class="six" id="six"><i class='bx bxl-python'></i><br>Python</div>
+                <div class="seven" id="seven"><i class='bx bxl-css3'></i><br>CSS3</div>
+                <div class="eight" id="eight"><i class='bx bxl-angular'></i><br>Angular</div>
+                <div class="nine" id="nine"><i class='bx bxl-html5'></i><br>html5</div>
+                <div class="ten" id="ten"><i class='bx bxl-github'></i><br>GitHub</div>
+                <div class="eleven" id="eleven"><span>C</span><br>C</div>
+                <div class="twelve" id="twelve"><i class='bx bxl-react'></i><br>Reactjs</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" id="project" id="project-content">
+        <div class="project-heading" id="project-heading">
+            <h3><i class='bx bxs-terminal'></i>Projects Made</h3>
+        </div>
+        <div class="project-content" >
+            <div class="project-data">
+                <img src="Screenshot (665).png" alt="portfolio-project" class="project-image"><br>
+                <a href="" class="project-link">My PortFolio</a>
+            </div>
+
+            <div class="project-data"><img src="https://media.gettyimages.com/id/1194120641/es/vector/plantilla-de-p%C3%A1gina-de-aterrizaje-fondo-borroso-abstracto-degradado-verde-desenfocado.jpg?s=612x612&w=gi&k=20&c=ubtDBR3mzcupGRPgxi1SfG59xyYU1bHH04bYqvOeJZQ=" alt="landing_page-project" class="project-image"><br><a
+                    href="">LandingPage</a>
+            </div>
+
+            <div class="project-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYkO7O92wz74o8i-Zd_zf2CmZ51Q-0dGBf6w&s" alt="guess-the-number-project"
+                    class="project-image"><br><a href="">Guess The Number</a></div>
+                
+        </div>
+        <div class="project-content">
+            <div class="project-data"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWc7EkRfpFgEBZfsx3Z_te1y7bt-puLpGqQg&s" alt="stone-papers-scissors-project"
+                    class="project-image"><br><a href="">Game</a></div>
+
+            <div class="project-data"><img src="Screenshot (666).png" alt="calculator-project" class="project-image"><br><a
+                    href="" >Calculator</a></div>
+
+            <div class="project-data"><img src="https://cdn.pixabay.com/photo/2022/05/22/17/22/to-do-7214069_640.png" alt="to-do-list-project" class="project-image"><br><a href=""
+                    >To-Do-List</a></div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact" id="project-content">
+        <h3 class="contact-heading" id="contact-heading"><i class="fas fa-headset"></i>Get in<span> Touch</span></h3>
+        <div class="contact-content">
+
+            <div class="contact-image"><img src="contact1.png" alt="Contact Me"></div>
+
+            <form id="contact-form">
+
+                <div class="form-group">
+                    <div class="field">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <i class='fas fa-user'></i>
+                    </div>
+                    <div class="field">
+                        <input type="text" name="email" placeholder="Email" required>
+                        <i class='fas fa-envelope'></i>
+                    </div>
+                    <div class="field">
+                        <input type="text" name="phone" placeholder="Phone">
+                        <i class='fas fa-phone-alt'></i>
+                    </div>
+                    <div class="message">
+                        <textarea placeholder="Message" name="message" required></textarea>
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                </div>
+                <div class="button-area">
+                    <button type="submit">
+                        Submit <i class="fa fa-paper-plane"></i></button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- footer section starts -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Jaimin's Portfolio</h3>
+                <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br />
+                    Keep Rising
+                    🚀.</p>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+                <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+                <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+                <a href="#project" style="--i:4;"><i class="fas fa-chevron-circle-right"></i> project</a>
+                <a href="#contact" style="--i:5;"><i class="fas fa-chevron-circle-right"></i> contact</a>
+
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <p> <i class="fas fa-phone"></i>+91 942-883-XXXX</p>
+                <p> <i class="fas fa-envelope"></i>trivedij481@gmail.com</p>
+                <p> <i class="fas fa-map-marked-alt"></i>Ahmedabad, India-380051</p>
+                <div class="share">
+                    <a href="https://www.facebook.com/jaimin.trivedi.733/" style="--i:7" target="_blank"><i
+                            class="bx bxl-facebook"></i></a>
+                    <a href="https://x.com/Jaimin__Trivedi" target="_blank" style="--i:8"><i
+                            class="bx bxl-xing"></i></a>
+                    <a href="https://www.instagram.com/jaimin__trivedi/" style="--i:9" target="_blank"><i
+                            class="bx bxl-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/jaimin-trivedi-1789a42ab/" style="--i:10" target="_blank"><i
+                            class="bx bxl-linkedin"></i></a>
+
+                </div>
+            </div>
+        </div>
+
+        <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a
+                href="https://www.linkedin.com/in/jaimin-trivedi-1789a42ab/" target="_blank"> Jaimin Trivedi</a></h1>
+
+    </section>
+    <!-- footer section ends -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="Portfolio.js"></script>
+</body>
+
+</html>
